@@ -4,18 +4,18 @@ import react from "react";
 import Card from "./card";
 import "../styles/study.css";
 
-const education1 = [
+const work1 = [
   { s1: "Technical University of Munich",
     s2: "Application Subject: Business & Economics"},
 ];
-const education2 = [
+const work2 = [
   { s1: "F+U Academy of languages Heidelberg"},
 ];
-const education3 = [
+const work3 = [
   { s1: "top 15% of the year, Grade: 1.6 (Tunisia)"},
 ];
 
-const Studium = () => {
+const Work = () => {
   return (
       
       <section className="min-h-90vh flex items-center bg-gray-900 text-white px-4 py-12 md:py-0">
@@ -32,16 +32,16 @@ const Studium = () => {
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ delay: 0.2 }}
                 >
-                  Education
+                  Work Experience
                 </motion.h1>
-                <Card v={education1} title={<><FaBook />  2021 - 2025: B.Sc. Computer Science</>} />
-                <Card v={education2} title={<><FaBook />  2020 - 2021: German Language Course</>} />
-                <Card v={education3} title={<><FaBook />  2016 - 2020: Elite High School in Tunisia with focus on Mathematics</>} />
-              </motion.div>
+                    <Card v={work1} title={<><FaBook />  05/2024 - Present : Working Student - Affiliate Marketing @ADAMICUS</>} />
+                    <Card v={work2} title={<><FaBook />  09/2024 - 06/2025 : Advisor, Project Manager @TUM</>} />
+                    <Card v={work3} title={<><FaBook />  04/2025 - Present: Team Leader IGTa @AIESEC</>} />
+                  </motion.div>
             </div>
           </section>
       
   );
 };
 
-export default Studium;
+export default Work;

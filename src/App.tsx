@@ -1,8 +1,8 @@
-import { Hero } from "./sections/Hero";
-import { Studium } from "./sections/Study";
-import { Skills } from "./sections/Skills";
+import Hero from "./sections/Hero";
+import Studium from "./sections/Study";
 import Sidebar from "./components/sidebar/sidebar";
-//import { Projects } from "./sections/Projects";
+import Work from "./sections/work";
+import SkillsAndProjects from "./sections/projects"; 
 
 
 function App() {
@@ -12,8 +12,9 @@ function App() {
     <main className="main">
       <Hero />
       <Studium />
-      <Skills />
-      {/* <Projects /> */}
+      <Work />
+      <SkillsAndProjects />
+      
     </main>
     </>
   );
