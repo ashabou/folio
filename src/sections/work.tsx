@@ -1,4 +1,4 @@
-import { FaBook } from "react-icons/fa";
+import { MdWork } from "react-icons/md";
 import { motion } from "framer-motion";
 import react from "react";
 import Card from "./card";
@@ -34,9 +34,9 @@ const Work = () => {
                 >
                   Work Experience
                 </motion.h1>
-                    <Card v={work1} title={<><FaBook />  05/2024 - Present : Working Student - Affiliate Marketing @ADAMICUS</>} />
-                    <Card v={work2} title={<><FaBook />  09/2024 - 06/2025 : Advisor, Project Manager @TUM</>} />
-                    <Card v={work3} title={<><FaBook />  04/2025 - Present: Team Leader IGTa @AIESEC</>} />
+                    <Card v={work1} title={<><MdWork />  05/2024 - Present : Working Student - Affiliate Marketing @ADAMICUS</>} />
+                    <Card v={work2} title={<><MdWork />  09/2024 - 06/2025 : Advisor, Project Manager @TUM</>} />
+                    <Card v={work3} title={<><MdWork />  04/2025 - Present: Team Leader IGTa @AIESEC</>} />
                   </motion.div>
             </div>
           </section>
