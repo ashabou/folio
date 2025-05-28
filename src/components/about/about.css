@@ -1,0 +1,44 @@
+.bottom-bar {
+  width: 97.45vw; /* full viewport width */
+  padding: 30px 20px;
+  background-color: rgba(255, 255, 255, 0.95);
+  text-align: center;
+  color: #333;
+  font-family: sans-serif;
+  border-top: 1px solid #eaeaea;
+  backdrop-filter: blur(6px);
+}
+
+.bottom-bar > div {
+  max-width: 1000px; /* Limit the width of the content */
+  margin: 0 auto;
+}
+
+.bottom-bar .name {
+  font-weight: bold;
+  font-size: 2.3rem;
+  color: #333;
+}
+
+.bottom-bar .social-icons {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;      /* Center vertically (optional) */
+  gap: 20px;
+}
+
+.bottom-bar .social-icons a {
+  color: #333;
+  font-size: 2.3rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.bottom-bar .social-icons a:hover {
+  color: #0077b5; /* Example hover color for LinkedIn */
+}
+
+.bottom-bar .copyright {
+  font-size: 0.95rem;
+  color: #666;
+}
