@@ -1,6 +1,5 @@
 import { FaBook } from "react-icons/fa";
 import { motion } from "framer-motion";
-import react from "react";
 import Card from "./card";
 import "../styles/study.css";
 

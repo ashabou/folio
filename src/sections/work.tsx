@@ -3,16 +3,21 @@ import { motion } from "framer-motion";
 import react from "react";
 import Card from "./card";
 import "../styles/study.css";
+import { Si2Fas } from "react-icons/si";
 
 const work1 = [
-  { s1: "Technical University of Munich",
-    s2: "Application Subject: Business & Economics"},
+  { s1: "Developed and maintained weekly performance reports using advanced Excel functions to track KPIsand business metrics.",
+s2: "Managed website content updates, including promotional banners, through custom HTML implementations/affiliate network platforms (AWIN, CJ Affiliate).",
+s3: "Optimized digital assets to drive affiliate marketing performance."
+},
 ];
 const work2 = [
-  { s1: "F+U Academy of languages Heidelberg"},
+  { s1: "Teaching and training a group of students on soft skills.",
+    s2: "Leading them through a robot-building project in the theme of Olympics."
+  },
 ];
 const work3 = [
-  { s1: "top 15% of the year, Grade: 1.6 (Tunisia)"},
+  { s1: "Leading a Team of 10+ members in the IGTa (International Global Talent) project."},
 ];
 
 const Work = () => {

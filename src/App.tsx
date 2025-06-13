@@ -4,6 +4,8 @@ import Sidebar from "./components/sidebar/sidebar";
 import Work from "./sections/work";
 import SkillsAndProjects from "./sections/projects";
 import About from "./components/about/about"; 
+import { CurriculumSection } from './sections/curriculum';
+
 
 
 function App() {
@@ -14,7 +16,8 @@ function App() {
       <Hero />
       <Studium />
       <Work />
-      <SkillsAndProjects />      
+      <CurriculumSection /> 
+      <SkillsAndProjects />     
     </main>
     <footer className="">
       <About />

@@ -1,5 +1,6 @@
 .bottom-bar {
   width: 97.45vw; /* full viewport width */
+  margin-top: 100;
   padding: 30px 20px;
   background-color: rgba(255, 255, 255, 0.95);
   text-align: center;
